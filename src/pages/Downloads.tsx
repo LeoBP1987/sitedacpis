@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Download, FileText, File, FilePdf, FileArchive } from "lucide-react";
+import { Download, FileText, File, FileCode } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
@@ -20,7 +20,7 @@ const arquivos = [
     tipo: "PDF",
     tamanho: "2.3 MB",
     data: "10/01/2023",
-    icone: FilePdf,
+    icone: FileCode,
     url: "#"
   },
   {
@@ -30,7 +30,7 @@ const arquivos = [
     tipo: "PDF",
     tamanho: "5.7 MB",
     data: "15/02/2023",
-    icone: FilePdf,
+    icone: FileCode,
     url: "#"
   },
   {
@@ -60,7 +60,7 @@ const arquivos = [
     tipo: "PDF",
     tamanho: "3.8 MB",
     data: "12/04/2023",
-    icone: FilePdf,
+    icone: FileCode,
     url: "#"
   },
   {
@@ -70,7 +70,7 @@ const arquivos = [
     tipo: "PDF",
     tamanho: "6.2 MB",
     data: "07/05/2023",
-    icone: FilePdf,
+    icone: FileCode,
     url: "#"
   },
   {
@@ -80,7 +80,7 @@ const arquivos = [
     tipo: "ZIP",
     tamanho: "128 MB",
     data: "25/06/2023",
-    icone: FileArchive,
+    icone: File,
     url: "#"
   },
   {
@@ -90,7 +90,7 @@ const arquivos = [
     tipo: "ZIP",
     tamanho: "45 MB",
     data: "10/07/2023",
-    icone: FileArchive,
+    icone: File,
     url: "#"
   },
   {
@@ -100,7 +100,7 @@ const arquivos = [
     tipo: "PDF",
     tamanho: "12.5 MB",
     data: "18/08/2023",
-    icone: FilePdf,
+    icone: FileCode,
     url: "#"
   },
   {
@@ -110,7 +110,7 @@ const arquivos = [
     tipo: "PDF",
     tamanho: "1.8 MB",
     data: "05/09/2023",
-    icone: FilePdf,
+    icone: FileCode,
     url: "#"
   },
   {
@@ -120,7 +120,7 @@ const arquivos = [
     tipo: "PDF",
     tamanho: "4.2 MB",
     data: "15/01/2024",
-    icone: FilePdf,
+    icone: FileCode,
     url: "#"
   },
   {
@@ -130,7 +130,7 @@ const arquivos = [
     tipo: "ZIP",
     tamanho: "87.3 MB",
     data: "31/01/2024",
-    icone: FileArchive,
+    icone: File,
     url: "#"
   },
 ];
