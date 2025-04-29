@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Cores da marca CPIS
+				'cpis-green': '#3A7C22',
+				'cpis-gray': '#D9D9D9',
+				'cpis-white': '#FFFFFF',
+			},
+			fontFamily: {
+				'bauhaus': ['Bauhaus 93', 'sans-serif'],
+				'sans': ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
